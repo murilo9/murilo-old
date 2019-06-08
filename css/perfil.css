@@ -1,0 +1,65 @@
+section.section-1a{
+    height: auto;
+}
+section.section-2{
+    margin-top: 2em;
+}
+section.section-2 article{
+    padding: 0 15%;
+    margin-bottom: 2em;
+}
+section.section-2 article .title{
+    display: flex;
+    align-items: center;
+    margin: 3em 0;
+}
+section.section-2 article i{
+    color: hsl(140, 40%, 50%);
+}
+section.section-2 article .title i{
+    font-size: 3em;
+}
+section.section-2 article span{
+    display: inline-block;
+    color: hsl(140, 40%, 50%);
+    font-size: 3em;
+    font-weight: bold;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+section.section-2 article .boxy{
+    display: flex;
+    margin-left: 2em;
+    color: #444;
+    font-size: 2em;
+}
+section.section-2 article .keys{
+    text-align: right;
+    margin-right: 1em;
+}
+section.section-2 article .values p{
+    font-size: 0.8em;
+    margin-bottom: 1.6em;
+}
+section.section-2 article .boxy2{
+    display: flex;
+    align-items: baseline;
+    font-size: 0.8em;
+    margin-left: 2em;
+    padding: 1em;
+}
+section.section-2 article .boxy2 span{
+    padding: 0.5em;
+    color: white;
+    background: hsl(140, 40%, 50%);
+    box-shadow: 2px 2px 4px gray;
+}
+section.section-2 article .boxy2 span.s1{
+    font-size: 2em;
+}
+section.section-2 article .boxy2 span.s2{
+    font-size: 3em;
+}
+section.section-2 article .boxy2 span.s3{
+    font-size: 4em;
+}

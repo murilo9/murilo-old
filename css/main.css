@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', 'Helvetica', sans-serif;
+}
+nav{
+    position: absolute;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    margin-left: 1em;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid white;
+}
+section.section-1a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 4em;
+    color: white;
+    background: hsl(140, 40%, 50%);
+}
+section.section-1a h1{
+    font-size: 2.5em;
+}
+section.section-1b{
+    display: block;
+    position: relative;
+    height: 8em;
+    bottom: 4em;
+    background: hsl(140, 40%, 50%);
+    transform: skewY(355deg);
+    z-index: -1;
+    box-shadow: 2px 2px 4px #444;
+}
