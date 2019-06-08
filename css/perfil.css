@@ -47,6 +47,7 @@ section.section-2 article .boxy2{
     font-size: 0.8em;
     margin-left: 2em;
     padding: 1em;
+    flex-wrap: wrap;
 }
 section.section-2 article .boxy2 span{
     padding: 0.5em;
